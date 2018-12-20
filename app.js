@@ -16,7 +16,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    host: 'https://52zoe.cn',
+    host: '',
     route:{
       blog: "/api/app-loadBlog",
       travels: "/api/app-travels",
