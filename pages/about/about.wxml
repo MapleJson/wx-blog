@@ -1,0 +1,28 @@
+<!--pages/about/about.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="wxParse">
+  <view class='about-me'>
+    <view class="wxParse-h1">
+      <view class="wxParse-span wxParse-inline"style="font-weight: bold;">
+        <view class="WxEmojiView wxParse-inline">关于我们</view>
+      </view>
+    </view>
+    <view>
+      <view>网名：{{about.authorName}}</view>
+      <view>职业：{{about.profession}}</view>
+      <view>个人微信：{{about.weChat}}</view>
+      <view>邮箱：{{about.email}}</view>
+    </view>
+  </view>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  <view class='about-weChat'>
+    <view class="wxParse-h1">
+      <view class="wxParse-span wxParse-inline"style="font-weight: bold;">
+        <view class="WxEmojiView wxParse-inline">个人微信</view>
+      </view>
+    </view>
+    <view class='about-weChatQR-item'>
+      <image class='about-weChatQR' src='{{about.weChatQR}}'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+/* pages/detail/detail.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.detail-strong{
+  font-weight: bold;
+}
+.detail-title{
+  text-align: center;
+  padding: 20rpx auto;
+}
+.detail-summary{
+  width: 90%;
+  color: #888888;
+  border: 1px solid #F3F3F3;
+  padding: 5%;
+  margin: 20rpx auto;
+  font-size: 10pt;
+  line-height: 40rpx;
+  background: none repeat 0 0 #F6F6F6;
+}
+.zan-box{
+  text-align: center;
+  padding-bottom: 50rpx;
+}
+.zan1, .zan2 {
+  width: 80rpx;
+  height: 80rpx;
+}

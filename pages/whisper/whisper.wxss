@@ -1,0 +1,18 @@
+/* pages/whisper/whisper.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.whisper-item{
+  background: #f7f4f4;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 12pt;
+}
+.whisper-item image{
+  width: 32rpx;
+}
+.whisper-date{
+  font-size: 11pt;
+  float: right;
+  text-align: right;
+  margin-right: 10rpx;
+}

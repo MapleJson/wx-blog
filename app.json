@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/travel/travel",
+    "pages/photo/photo",
+    "pages/whisper/whisper",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "秋枫阁Zoe",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/travel/travel",
+        "text": "相册"
+      },
+      {
+        "pagePath": "pages/whisper/whisper",
+        "text": "耳语"
+      }
+    ]
+  }
+}

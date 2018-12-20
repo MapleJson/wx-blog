@@ -1,0 +1,29 @@
+/* blog-list */
+.blog-item {
+  overflow: hidden;
+  margin: 20rpx;
+  padding: 10rpx;
+  border-bottom: 1rpx #b2b2b2 solid;
+}
+.blog-image {
+  float: left;
+  width: 240rpx;
+  height: 190rpx;
+}
+.blog-body {
+  margin-left: 250rpx;
+}
+.blog-title {
+  color: #212121;
+  font-size: 12pt;
+  line-height: 1.2;
+}
+.blog-summary {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+  color: #9a9a0a;
+  font-size: 11pt;
+  line-height: 1.6;
+}

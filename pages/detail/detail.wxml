@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class='detail-title'>{{detail.title}}</view>
+<view class='detail-summary'>
+  <text class='detail-strong'>简介 </text>
+  <text>{{detail.summary}}</text>
+</view>
+<view class="wxParse">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+<view class='zan-box'>
+  <image class='zan1' wx:if="{{collection}}" src="/images/pic1.png"  bindtap="toCollect"></image>
+  <image class='zan2' wx:else src="/images/pic2.png" bindtap="toCollect"></image>
+</view>

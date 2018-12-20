@@ -1,0 +1,7 @@
+<!--pages/photo/photo.wxml-->
+<view class='photo-list'>
+  <view class='photo-item' wx:for="{{photos}}" wx:for-item="photo">
+    <image class='photo-iamge' src='{{photo.img}}' mode="widthFix"></image>
+    <view class='photo-summary'>{{photo.summary ? photo.summary : ""}}</view>
+  </view>
+</view>

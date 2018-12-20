@@ -1,0 +1,8 @@
+<!--pages/travel/travel.wxml-->
+<view class='travel-list'>
+  <view class='travel-item' wx:for="{{travels}}" data-index='{{index}}' wx:for-item="travel" bindtap='toPhoto'>
+    <image class='travel-cover' src='{{travel.cover}}' mode="widthFix"></image>
+    <view class='travel-title'>{{travel.title}}</view>
+    <view class='travel-summary'>{{travel.summary}}</view>
+  </view>
+</view>

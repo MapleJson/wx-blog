@@ -1,0 +1,16 @@
+/* pages/about/about.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.wxParse{
+  padding: 10rpx;
+}
+.about-me{
+  margin-bottom: 50rpx;
+}
+.about-weChatQR-item{
+  text-align: center;
+}
+.about-weChatQR{
+  width: 50%;
+  height: 365rpx;
+}

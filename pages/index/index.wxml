@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="blog-list">
+    <view class="blog-item" wx:for="{{posts}}" data-index='{{index}}' wx:for-item="blog" bindtap='toDetail'>
+      <image src="{{blog.img}}" class="blog-image" />
+      <view class="blog-body">
+        <view class="blog-title">{{blog.title}}</view>
+        <text class='blog-summary'>{{blog.summary}}</text>
+      </view>
+    </view>
+</view>
+

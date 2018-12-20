@@ -1,0 +1,14 @@
+/* pages/photo/photo.wxss */
+.photo-item{
+  width: 98%;
+  padding: 1%;
+  margin-bottom: 20rpx;
+}
+.photo-iamge{
+  width: 100%;
+}
+.photo-summary{
+  text-align: center;
+  font-size: 12pt;
+  color: #00a7d0;
+}

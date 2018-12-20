@@ -1,0 +1,8 @@
+<!--pages/whisper/whisper.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class='whisper-list'>
+  <view class='whisper-item' wx:for="{{whisper}}" data-index='{{index}}' wx:for-item="whis">
+    <template is="wxParse" data="{{wxParseData:replyTemArray[index]}}"/>
+    <text class='whisper-date'>{{whis.created_at}}-{{whis.author}}</text>
+  </view>
+</view>
