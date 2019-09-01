@@ -3,7 +3,9 @@
     "pages/travel/travel",
     "pages/photo/photo",
     "pages/whisper/whisper",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/index/index",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +23,16 @@
       {
         "pagePath": "pages/whisper/whisper",
         "text": "耳语"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "博客"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

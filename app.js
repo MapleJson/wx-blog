@@ -1,15 +1,6 @@
 //app.js
 // 如果审核通过则可以将其加入app.json中去
-// "pages/index/index",
-//   "pages/detail/detail",
-//   {
-//     "pagePath": "pages/index/index",
-//     "text": "博客"
-//   },
-//   {
-//     "pagePath": "pages/about/about",
-//     "text": "关于"
-//   },
+
 App({
   onLaunch: function () {
     
