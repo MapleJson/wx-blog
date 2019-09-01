@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/travel/travel",
     "pages/photo/photo",
     "pages/whisper/whisper",
     "pages/about/about",
-    "pages/index/index",
     "pages/detail/detail"
   ],
   "window": {

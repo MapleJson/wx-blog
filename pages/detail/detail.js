@@ -1,5 +1,5 @@
 // pages/detail/detail.js
-
+const app = getApp()
 const WxParse = require('../../wxParse/wxParse.js')
 
 Page({
@@ -40,12 +40,22 @@ Page({
       // 把设置的当前文章点赞放在整体的缓存中
       wx.setStorageSync('like', cache);
     }
-    // 编译HTML
-    var article = detail.content;
-    article = article.replace("iframe", "video");
-    WxParse.wxParse('article', 'html', article, that, 5);
     that.setData({
       detail: detail
+    })
+    // 编译HTML
+    wx.request({
+      url: app.globalData.host + app.globalData.route.detail,
+      data: {
+        id: detail.id
+      },
+      success: res => {
+        if (res.statusCode === 200) {
+          var article = res.data.data.content;
+          article = article.replace("iframe", "video");
+          WxParse.wxParse('article', 'html', article, that, 5);
+        }
+      }
     })
   },
 

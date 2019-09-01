@@ -14,6 +14,7 @@ App({
       photo: "/api/app-loadPhoto",
       whisper: "/api/app-whisper",
       about: "/api/app-about",
+      detail: "/api/app-detail",
     },
     url: {
       detail: "/pages/detail/detail",
