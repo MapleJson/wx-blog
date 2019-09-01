@@ -17,16 +17,16 @@
   "tabBar": {
     "list": [
       {
+        "pagePath": "pages/index/index",
+        "text": "博客"
+      },
+      {
         "pagePath": "pages/travel/travel",
         "text": "相册"
       },
       {
         "pagePath": "pages/whisper/whisper",
         "text": "耳语"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "博客"
       },
       {
         "pagePath": "pages/about/about",
